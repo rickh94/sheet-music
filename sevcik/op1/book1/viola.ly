@@ -52,6 +52,7 @@ viola_notes_six = {
 }
 
 \book {
+  \bookOutputName "sevcik-op1-book1-viola"
   \score {
     \header {
       piece = "No. 1"

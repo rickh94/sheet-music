@@ -40,6 +40,7 @@ violin_notes_six = {
 }
 
 \book {
+  \bookOutputName "sevcik-op1-book1-violin"
   \score {
     \header {
       piece = "No. 1"
@@ -92,4 +93,3 @@ violin_notes_six = {
     #(set-paper-size "letter")
   }
 }
-
