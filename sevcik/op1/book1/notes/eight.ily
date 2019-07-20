@@ -1,7 +1,7 @@
 \version "2.18.2"
 \language "english"
 
-tmpbreak = {\break}
+tmpbreak = {}
 
 instructions_eight = "Practice these exercises on each string."
 
