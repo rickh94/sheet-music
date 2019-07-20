@@ -34,6 +34,11 @@ violin_notes_five = {
   \notes_five
 }
 
+violin_notes_six = {
+  \clef treble
+  \notes_six
+}
+
 \book {
   \score {
     \header {
@@ -73,6 +78,14 @@ violin_notes_five = {
     }
     \new Staff {
       \violin_notes_five
+    }
+  }
+  \score {
+    \header {
+      piece = "No. 6"
+    }
+    \new Staff {
+      \violin_notes_six
     }
   }
   \paper {

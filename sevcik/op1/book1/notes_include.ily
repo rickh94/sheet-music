@@ -6,3 +6,4 @@
 \include "notes/three.ily"
 \include "notes/four.ily"
 \include "notes/five.ily"
+\include "notes/six.ily"
