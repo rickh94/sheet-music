@@ -1,0 +1,5 @@
+build:
+    lilypond -o output -djob-count=4 violin.ly viola.ly
+
+clean:
+    rm **/*.pdf
