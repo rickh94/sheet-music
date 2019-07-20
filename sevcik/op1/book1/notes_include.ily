@@ -8,3 +8,4 @@
 \include "notes/five.ily"
 \include "notes/six.ily"
 \include "notes/seven.ily"
+\include "notes/eight.ily"
