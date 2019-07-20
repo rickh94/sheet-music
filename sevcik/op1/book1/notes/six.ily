@@ -1,7 +1,7 @@
 \version "2.18.2"
 \language "english"
 
-tmpbreak = {\break}
+tmpbreak = {}
 
 notes_six = \relative {
   \set Timing.defaultBarType = "||"

@@ -32,7 +32,7 @@ def add_notes(number):
         lines = violin_file.readlines()
 
     for idx, line in enumerate(lines):
-        if "\\book" not in line:
+        if "\\book {" not in line:
             continue
         lines[idx] = violin_notes + line
 
