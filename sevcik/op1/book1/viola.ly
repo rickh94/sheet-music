@@ -44,6 +44,13 @@ viola_notes_five = {
   }
 }
 
+viola_notes_six = {
+  \clef alto
+  \transpose a d {
+    \notes_six
+  }
+}
+
 \book {
   \score {
     \header {
@@ -85,8 +92,15 @@ viola_notes_five = {
       \viola_notes_five
     }
   }
+  \score {
+    \header {
+      piece = "No. 6"
+    }
+    \new Staff {
+      \viola_notes_six
+    }
+  }
   \paper {
     #(set-paper-size "letter")
   }
 }
-
