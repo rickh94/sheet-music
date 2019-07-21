@@ -65,6 +65,6 @@ notes_nine = \relative {
     | fs8 ( a c-4 es,-1 fs a fs a c es, fs a )
     | g8 ( as-3 b fs g a-3 g as b fs g a )
     | g8 ( b as b a b g b as b a fs )
-    | g1 \bar "|."
   }
+    | g1 \bar "|."
 }
