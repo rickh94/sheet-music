@@ -10,3 +10,4 @@
 \include "notes/seven.ily"
 \include "notes/eight.ily"
 \include "notes/nine.ily"
+\include "notes/ten.ily"

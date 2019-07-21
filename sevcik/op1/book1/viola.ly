@@ -72,6 +72,13 @@ viola_notes_nine = {
   }
 }
 
+viola_notes_ten = {
+  \clef alto
+  \transpose a d {
+    \notes_ten
+  }
+}
+
 \book {
   \bookOutputName "sevcik-op1-book1-viola"
   \score {
@@ -144,6 +151,14 @@ viola_notes_nine = {
     }
     \new Staff {
       \viola_notes_nine
+    }
+  }
+  \score {
+    \header {
+      piece = "No. 10"
+    }
+    \new Staff {
+      \viola_notes_ten
     }
   }
   \paper {
