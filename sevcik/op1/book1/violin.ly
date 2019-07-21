@@ -49,6 +49,11 @@ violin_notes_eight = {
   \notes_eight
 }
 
+violin_notes_nine = {
+  \clef treble
+  \notes_nine
+}
+
 \book {
   \bookOutputName "sevcik-op1-book1-violin"
   \score {
@@ -113,6 +118,14 @@ violin_notes_eight = {
     }
     \new Staff {
       \violin_notes_eight
+    }
+  }
+  \score {
+    \header {
+      piece = "No. 9"
+    }
+    \new Staff {
+      \violin_notes_nine
     }
   }
   \paper {

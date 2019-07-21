@@ -10,6 +10,7 @@ single = {
 double = \bar "||"
 
 notes_five = \relative {
+  \override TupletNumber.text = ""
   \tuplet 3/2 4 {
     a'8-0-- (b-- a-- b-- cs-- b-- cs-- d-- cs-- d-- e---4 d-- ) \single
     cs8 ( d cs d e d cs d cs b cs b ) \double \noBreak
@@ -124,37 +125,37 @@ notes_five = \relative {
     a8 ( g a fs e fs b a b g fs g ) \double \noBreak
     fs8 ( e fs a g a g fs g bf a bf ) \single
     a8 ( g a fs e fs bf a bf g fs g ) \double \break
-    
+
     f!8 ( e f a g a g f g bf a bf ) \single
     a8 ( g a f e f bf a bf g f g ) \double \noBreak
     f8 ( e f af g af g f g bf af bf ) \single
     af8 ( g af f e f bf af bf g f g ) \double \break
-    
+
     e8 ( fs e g a g fs g fs a bf a ) \single
     g8 ( a g e fs e a bf a fs g fs ) \double \noBreak
     e8 ( fs e g a g fs g fs a b! a ) \single
     g8 ( a g e fs e a b a fs g fs ) \double \break
-    
+
     e8 ( fs e gs a gs fs gs fs a b a ) \single
     gs8 ( a gs e fs e a b a fs gs fs ) \double \noBreak
     gs8 ( e fs a fs gs a fs gs b gs a ) \single
     b8 ( gs a gs e fs gs e fs a fs gs ) \double \break
-    
+
     g!8 ( e fs a fs g a fs g b g a ) \single
     b8 ( g a g e fs g e fs a fs g ) \double \noBreak
     g8 ( e f! a f g a f g bf g a ) \single
     bf8 ( g a g e f g e f a f g ) \double \break
-    
+
     g8 ( e f af f g af f g bf g af ) \single
     bf8 ( g af g e f g e f af f g ) \double \noBreak
     e8 ( g e f af f g bf g f af f ) \single
     g8 ( bf g f af f e g e f af f ) \double \break
-    
+
     e8 ( g e f a! f g bf g f a f ) \single
     g8 ( bf g f a f e g e f a f ) \double \noBreak
     e8 ( g e fs a fs g b! g fs a fs ) \single
     g8 ( b g fs a fs e g e fs a fs ) \double \break
-    
+
     e8 ( fs e gs e a e b' e, a e gs ) \single
     fs8 ( e gs e a e b' e, a e gs fs ) \double \noBreak
     e8 ( fs e g! e a e b' e, a e g ) \single
@@ -162,35 +163,35 @@ notes_five = \relative {
   }
   e1 \double \break
   \tuplet 3/2 4 {
-    b,8 ^\( _( g b c a c d_4 b d c a c ) \single 
+    b,8 ^\( _( g b c a c d_4 b d c a c ) \single
     d8 ( b d c a c b g b c a c ) \) \double \noBreak
     bf8 ( g bf c a c d bf d c a c ) \single
     d8 ( bf d c a c bf g bf c a c ) \double \break
-    
+
     bf8 ( g bf c a c df bf df c a c ) \single
-    df8 ( bf df c a c bf g bf c a c ) \double 
+    df8 ( bf df c a c bf g bf c a c ) \double
     bf8 ( g bf c af c df bf df c af c ) \single
     df8 ( bf df c af c bf g bf c af c ) \double \break
-    
+
     bf8 ( g bf cf af cf df bf df cf af cf ) \single
-    df8 ( bf df cf af cf bf g bf cf af cf ) \double 
+    df8 ( bf df cf af cf bf g bf cf af cf ) \double
     g8 ( bf g cf g cf af cf af df af df ) \single
     af8 ( df af cf af cf g cf g bf g bf ) \double \break
-    
+
     g8 ( bf g c! g c af c af df af df ) \single
     af8 ( df af c af c g c g bf g bf ) \double
     g8 ( b! g c g c af c af d! a d ) \single
     af8 ( d af c af c g c g b g b ) \double \break
-    
+
     d8 ( g, d' a! d a d b d c d c ) \single
     d8 ( b d c d c d b d a d a ) \double \noBreak
     d8 ( g, d' a d a d bf d c d c ) \single
     d8 ( bf d c d c d bf d a d a ) \double \break
-    
+
     g8 ( d' g, d' a d bf d bf d c d ) \single
     bf8 ( d bf d c d bf d bf d a d ) \double \noBreak
     g,8 ( d' g, d' a d b! d b d c d ) \single
-    b8 ( d b d c d b d b d a d ) \double 
+    b8 ( d b d c d b d b d a d ) \double
   }
   g,1 \bar "|."
 }
