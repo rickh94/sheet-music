@@ -64,6 +64,12 @@ violin_notes_eleven = {
   \notes_eleven
 }
 
+violin_notes_twelve = {
+  \clef treble
+  \keepWithTag #'violinOnly
+  \notes_twelve
+}
+
 \book {
   \bookOutputName "sevcik-op1-book1-violin"
   \score {
@@ -152,6 +158,14 @@ violin_notes_eleven = {
     }
     \new Staff {
       \violin_notes_eleven
+    }
+  }
+  \score {
+    \header {
+      piece = "No. 12: Scales"
+    }
+    \new Staff {
+      \violin_notes_twelve
     }
   }
   \paper {
